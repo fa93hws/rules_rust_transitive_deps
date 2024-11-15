@@ -1,0 +1,8 @@
+/target
+^target/
+target
+bazel-bin
+bazel-out
+bazel-rules_rust_transitive_deps
+bazel-testlogs
+.DS_Store

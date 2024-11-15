@@ -1,0 +1,11 @@
+load("@rules_rust//rust:defs.bzl", "rust_shared_library")
+
+rust_shared_library(
+    name = "wasm",
+    srcs = [":src/lib.rs"],
+    deps = [
+      "@crate_index//:swc_core",
+      "@crate_index//:serde",
+    ],
+    platform = "@rules_rust//rust/platform:wasi",
+)

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+  "swc_plugin",
+  "another_rust_project",
+]
