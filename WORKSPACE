@@ -29,7 +29,7 @@ crates_repository(
     lockfile = "//:Cargo.Bazel.lock",
     manifests = [
         "//swc_plugin:Cargo.toml",
-        "//another_rust_project:Cargo.toml",
+        # "//another_rust_project:Cargo.toml",
     ],
 )
 
